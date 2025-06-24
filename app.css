@@ -40,7 +40,7 @@
   --black: #000000;
   
   /* MISCELLANEOUS */
-  --nav-height: 300X;
+  --nav-height: 80px;
 }
 * {
    box-sizing: border-box;
@@ -158,13 +158,6 @@ span {
 .highlight-teritary{
   background-color: var(--tertiary-base);
 }
-.header-section {
-  height: 100vh;
-  min-height: 800px;
-}
-.Hero-section {
-  text-align: center;
-}
 .feature-section {
   margin-bottom: 30rem;
 }
@@ -208,7 +201,6 @@ span {
 }
 .navbar {
   height: var(--nav-height);
-  margin-bottom: 20rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -219,18 +211,15 @@ span {
   display: flex;
   gap: 2rem;
 }
-
 .hero-section {
     height: calc(100vh - var(--nav-height));
-    min-height: 400px;
-    margin-bottom: 15rem;
+    min-height: 450px;
     text-align: center;
+    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
-
 .hero-button {
   display: flex;
   justify-content: center;
